@@ -1,0 +1,54 @@
+<Configuration status="DEBUG">
+
+
+	<Properties>
+		<Property name="log-path">NewsPapperScrapperLog</Property>
+	</Properties>
+	<ThresholdFilter level="all" />
+
+	#Console appender
+	<Appenders>
+		<Console name="stdout" target="SYSTEM_OUT">
+			# Pattern of log message
+			for console appender
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} 
+			%-5level %c{4} %L %M - %msg%xEx%n" />
+		</Console>
+
+		<RollingRandomAccessFile
+			name="Rolling-Random-Access-File-Appender-Scrap_App"
+			fileName="${log-path}/logFile.log"
+			filePattern="${log-path}/logFile-%d{yyyy-MM-dd-hh-mm}-%i.log.gz"
+			immediateFlush="false" append="false" ignoreExceptions="false">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5level %c{4} %L %M - %msg%xEx%n" />
+			<Policies>
+				<SizeBasedTriggeringPolicy size="1 MB" />
+			</Policies>
+
+			<DefaultRolloverStrategy>
+
+				<Delete basePath="${log-path}">
+					<IfFileName glob="logFile-*.log.gz">
+						<IfAny>
+							<IfAccumulatedFileSize exceeds="500 MB" />
+							<IfAccumulatedFileCount exceeds="300" />
+						</IfAny>
+					</IfFileName>
+				</Delete>
+			</DefaultRolloverStrategy>
+		</RollingRandomAccessFile>
+	</Appenders>
+	<Loggers>
+
+		<AsyncLogger name="com.newspapperscrap.scrap"
+			level="DEBUG">
+			<AppenderRef
+				ref="Rolling-Random-Access-File-Appender-Scrap_App" />
+		</AsyncLogger>
+		<AsyncRoot name="com.newspapperscrap.scrap" level="ERROR">
+			<AppenderRef ref="stdout" />
+		</AsyncRoot>
+	</Loggers>
+</Configuration>

@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Implementation-Title: NewsPapperScaper
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ranjith
+Implementation-Vendor-Id: com.newpapper.scrap
+Class-Path: lib/spring-boot-starter-web-2.0.4.RELEASE.jar lib/spring-b
+ oot-starter-2.0.4.RELEASE.jar lib/spring-boot-2.0.4.RELEASE.jar lib/s
+ pring-boot-autoconfigure-2.0.4.RELEASE.jar lib/javax.annotation-api-1
+ .3.2.jar lib/spring-core-5.0.8.RELEASE.jar lib/spring-jcl-5.0.8.RELEA
+ SE.jar lib/snakeyaml-1.19.jar lib/spring-boot-starter-json-2.0.4.RELE
+ ASE.jar lib/jackson-databind-2.9.6.jar lib/jackson-annotations-2.9.0.
+ jar lib/jackson-core-2.9.6.jar lib/jackson-datatype-jdk8-2.9.6.jar li
+ b/jackson-datatype-jsr310-2.9.6.jar lib/jackson-module-parameter-name
+ s-2.9.6.jar lib/spring-boot-starter-tomcat-2.0.4.RELEASE.jar lib/tomc
+ at-embed-core-8.5.32.jar lib/tomcat-embed-el-8.5.32.jar lib/tomcat-em
+ bed-websocket-8.5.32.jar lib/hibernate-validator-6.0.11.Final.jar lib
+ /validation-api-2.0.1.Final.jar lib/jboss-logging-3.3.2.Final.jar lib
+ /classmate-1.3.4.jar lib/spring-web-5.0.8.RELEASE.jar lib/spring-bean
+ s-5.0.8.RELEASE.jar lib/spring-webmvc-5.0.8.RELEASE.jar lib/spring-ao
+ p-5.0.8.RELEASE.jar lib/spring-context-5.0.8.RELEASE.jar lib/spring-e
+ xpression-5.0.8.RELEASE.jar lib/log4j-api-2.7.jar lib/log4j-core-2.7.
+ jar lib/disruptor-3.3.6.jar lib/jsoup-1.11.3.jar lib/mysql-connector-
+ java-5.1.46.jar lib/spring-boot-starter-data-jpa-2.0.4.RELEASE.jar li
+ b/spring-boot-starter-aop-2.0.4.RELEASE.jar lib/aspectjweaver-1.8.13.
+ jar lib/spring-boot-starter-jdbc-2.0.4.RELEASE.jar lib/HikariCP-2.7.9
+ .jar lib/spring-jdbc-5.0.8.RELEASE.jar lib/hibernate-core-5.2.17.Fina
+ l.jar lib/hibernate-jpa-2.1-api-1.0.2.Final.jar lib/javassist-3.22.0-
+ GA.jar lib/antlr-2.7.7.jar lib/jandex-2.0.3.Final.jar lib/dom4j-1.6.1
+ .jar lib/hibernate-commons-annotations-5.0.1.Final.jar lib/javax.tran
+ saction-api-1.2.jar lib/spring-data-jpa-2.0.9.RELEASE.jar lib/spring-
+ data-commons-2.0.9.RELEASE.jar lib/spring-orm-5.0.8.RELEASE.jar lib/s
+ pring-tx-5.0.8.RELEASE.jar lib/slf4j-api-1.7.25.jar lib/spring-aspect
+ s-5.0.8.RELEASE.jar lib/selenium-java-3.9.1.jar lib/selenium-api-3.9.
+ 1.jar lib/selenium-chrome-driver-3.9.1.jar lib/selenium-edge-driver-3
+ .9.1.jar lib/selenium-ie-driver-3.9.1.jar lib/selenium-opera-driver-3
+ .9.1.jar lib/selenium-safari-driver-3.9.1.jar lib/selenium-support-3.
+ 9.1.jar lib/byte-buddy-1.7.11.jar lib/commons-exec-1.3.jar lib/common
+ s-codec-1.11.jar lib/commons-logging-1.2.jar lib/gson-2.8.5.jar lib/g
+ uava-23.6-jre.jar lib/jsr305-1.3.9.jar lib/checker-compat-qual-2.0.0.
+ jar lib/error_prone_annotations-2.1.3.jar lib/j2objc-annotations-1.1.
+ jar lib/animal-sniffer-annotations-1.14.jar lib/httpclient-4.5.6.jar 
+ lib/httpcore-4.4.10.jar lib/okhttp-3.9.1.jar lib/okio-1.13.0.jar lib/
+ selenium-remote-driver-3.9.1.jar lib/selenium-firefox-driver-3.9.1.ja
+ r
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/NewsPapperScaper
+Created-By: Maven Integration for Eclipse
+Main-Class: com.newspapperscrap.scrap.NewsPapperScrapApp
+

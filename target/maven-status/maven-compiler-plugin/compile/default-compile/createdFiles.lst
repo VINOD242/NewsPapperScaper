@@ -1,0 +1,6 @@
+com/newspapperscrap/scrap/NewsPapperScrapApp.class
+com/newspapperscrap/scrap/model/ArticlesData.class
+com/newspapperscrap/scrap/service/DataBaseOPerations.class
+com/newspapperscrap/scrap/controller/RequestHandling.class
+com/newspapperscrap/scrap/service/ExtractingData.class
+com/newspapperscrap/scrap/repo/ScrapRepo.class
